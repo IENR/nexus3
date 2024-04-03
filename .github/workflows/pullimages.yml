@@ -31,6 +31,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           docker pull sonatype/nexus3:3.67.0
-          docker login --username=lcming_0226@163.com --password='lcming_0226'registry.cn-hangzhou.aliyuncs.com
+          docker login --username=1273120378600617 --password='lcming_0226'registry.cn-hangzhou.aliyuncs.com
               docker tag sonatype/nexus3:3.67.0 registry.cn-hangzhou.aliyuncs.com/self-priative/sonatype-nexus3:3.67.0
           docker push registry.cn-hangzhou.aliyuncs.com/self-priative/sonatype-nexus3:3.67.0
